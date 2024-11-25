@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+#white {
+    height: 900px;
+    width: 1330px;
+    background-color: white;
+    border-width: 5px;
+    border-bottom: 0px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#transition {
+    height: 2320px;
+    width: 1330px;
+    background-color: gray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align:center;
+    text-decoration: underline;
+    padding: 0;
+    padding-top: 50px;
+    border-width: 5px;
+    border-top: 0px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-out;
+    transition-delay: 0s;
+    font-style: italic;
+}
+
+#transition:hover {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-top: 0px;
+}
+
+#heading {
+    height: 50px; 
+     width: 1300px;
+    padding: 5px;
+    color:white;
+    padding-bottom: 15px;
+    padding-top: 4px;
+    margin: 5px;
+    background-image: url(bg_image.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: fixed;
+    background-color: gray;
+    border-width: 3px;
+    box-shadow: 1px 1px 30px yellow;
+    border-style: groove;
+    border-color: black;
+    border-radius: 30%;
+    text-decoration:underline;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    z-index: 1;
+}
+
+.healthy {
+    height: 400px;
+    width: 400px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 20px;
+    background-image: url("healthy_food.jpg");
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 95px;
+    box-shadow: 1px 1px 25px black;
+}
+
+#heading:hover {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
+
+.unhealthy {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: url("unhealthy_food.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    padding: 2px;
+    padding-top: 6px;
+    margin: 2px;
+    box-shadow: 1px 1px 25px black;
+}
+
+#hh {
+    position: relative;
+    left: 450px;
+    bottom: 100px ;
+    height: 300px;
+    width: 250px;
+    color: blue;
+    font-size: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+#uh {
+    position: relative;
+    left: 645px;
+    bottom: 600px;
+    font-size: 50px;
+    height: 300px;
+    width: 250px;
+    color: red;
+    padding: 5px;
+    border-radius: 20px;    
+}
+
+.caption1 {
+    font-size: 30px;
+    font-stretch: expanded;
+    position: relative;
+    left: 0px;
+    bottom: 450px;
+    padding: 3px;
+    margin: 3px;
+    text-decoration: dotted; 
+}
+
+#hl {
+    position: relative;
+    left: 30px;
+    bottom: 430px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.caption2 {
+    font-size: 30px;
+    position: relative;
+    left: 930px;
+    bottom: 1020px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#uhl {
+    position: relative;
+    left: 990px;
+    bottom: 1000px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.food1 {
+    height: 150px;
+    width: 200px;
+    background-image: url("food1.jpg");
+    background-size: cover;
+    position: relative;
+    left: 380px;
+    bottom: 650px;
+    border-width: 3px;
+    border-style:outset;
+    border-radius: 20px;
+    border-color: brown;
+    box-shadow: 1px 1px 25px black;
+}
+
+.food2 {
+    height: 200px;
+    width: 200px;
+    background-image: url("food2.jpg");
+    background-size: cover;
+    position: relative;
+    left: 600px;
+    bottom: 720px;
+    border-width: 3px;
+    border-style:outset;
+    border-radius: 20px;
+    border-color: brown;
+    box-shadow: 1px 1px 25px black;
+}
+
+p {
+    text-align:start;
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration: unset;
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+#hfood1 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: static;
+    right: inherit;;
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+#hfood2 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative;
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+#hfood3 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+
+#hfood4 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+#hfood5 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+#hfood6 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px blue);
+}
+
+#uhfood1 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+#uhfood2 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+#uhfood3 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+#uhfood4 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+#uhfood5 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+#uhfood6 {
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    margin: 20px;
+    position: relative; 
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px red);
+}
+
+
+
+
+
+
+
+
